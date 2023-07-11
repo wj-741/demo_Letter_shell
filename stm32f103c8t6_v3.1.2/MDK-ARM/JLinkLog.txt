@@ -1,0 +1,166 @@
+T5698 000:142.860   SEGGER J-Link V7.88e Log File
+T5698 000:142.965   DLL Compiled: May 31 2023 16:26:20
+T5698 000:142.970   Logging started @ 2023-07-06 03:20
+T5698 000:142.974 - 142.976ms
+T5698 000:142.982 JLINK_SetWarnOutHandler(...)
+T5698 000:142.987 - 0.007ms
+T5698 000:142.992 JLINK_OpenEx(...)
+T5698 000:144.588   Firmware: J-Link V11 compiled May 23 2023 14:44:38
+T5698 000:144.959   Firmware: J-Link V11 compiled May 23 2023 14:44:38
+T5698 000:165.221   Hardware: V11.00
+T5698 000:165.242   S/N: 261000798
+T5698 000:165.251   OEM: SEGGER-EDU
+T5698 000:165.261   Feature(s): FlashBP, GDB
+T5698 000:167.090   USB speed mode: High speed (480 MBit/s)
+T5698 000:167.540   TELNET listener socket opened on port 19021
+T5698 000:167.677   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T5698 000:168.038   WEBSRV Webserver running on local port 19080
+T5698 000:168.154   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T5698 000:168.252   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T5698 000:168.299   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T5698 000:172.040   J-Link GUI Server info: "J-Link GUI server V7.88e "
+T5698 000:172.354 - 29.367ms returns "O.K."
+T5698 000:172.391 JLINK_GetEmuCaps()
+T5698 000:172.398 - 0.009ms returns 0xB9FF7BBF
+T5698 000:172.409 JLINK_TIF_GetAvailable(...)
+T5698 000:172.534 - 0.132ms
+T5698 000:172.546 JLINK_SetErrorOutHandler(...)
+T5698 000:172.551 - 0.006ms
+T5698 000:172.565 JLINK_ExecCommand("ProjectFile = "E:\letter-shell\demo_Letter_shell-master\stm32f103c8t6\MDK-ARM\JLinkSettings.ini"", ...). 
+T5698 000:181.324   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T5698 000:181.411   REF file references invalid XML file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T5698 000:181.510 - 8.949ms returns 0x00
+T5698 000:181.531 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T5698 000:181.705   Device "STM32F103C8" selected.
+T5698 000:181.965 - 0.432ms returns 0x00
+T5698 000:181.975 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5698 000:181.982 - 0.003ms returns 0x01
+T5698 000:181.988 JLINK_GetHardwareVersion()
+T5698 000:181.992 - 0.006ms returns 110000
+T5698 000:182.000 JLINK_GetDLLVersion()
+T5698 000:182.004 - 0.006ms returns 78805
+T5698 000:182.009 JLINK_GetOEMString(...)
+T5698 000:182.017 JLINK_GetDLLVersion()
+T5698 000:182.021 - 0.006ms returns 78805
+T5698 000:182.025 JLINK_GetCompileDateTime()
+T5698 000:182.029 - 0.005ms
+T5698 000:182.036 JLINK_GetFirmwareString(...)
+T5698 000:182.040 - 0.006ms
+T5698 000:182.046 JLINK_GetHardwareVersion()
+T5698 000:182.050 - 0.005ms returns 110000
+T5698 000:182.055 JLINK_GetSN()
+T5698 000:182.059 - 0.006ms returns 261000798
+T5698 000:182.065 JLINK_GetOEMString(...)
+T5698 000:182.073 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T5698 000:182.964 - 0.895ms returns 0x00
+T5698 000:182.973 JLINK_HasError()
+T5698 000:182.983 JLINK_SetSpeed(5000)
+T5698 000:183.117 - 0.137ms
+T5698 000:183.358 JLINK_HasError()
+T5698 000:183.366 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5698 000:183.374 - 0.009ms returns JLINKARM_RESET_TYPE_NORMAL
+T5698 000:183.379 JLINK_Reset()
+T5698 000:183.487   InitTarget() start
+T5698 000:183.502    J-Link Script File: Executing InitTarget()
+T5698 000:183.603   JTAG selected. Identifying JTAG Chain...
+T5698 000:184.290   TotalIRLen = 9, IRPrint = 0x0011
+T5698 000:184.620   JTAG chain detection found 2 devices:
+T5698 000:184.631    #0 Id: 0x3BA00477, IRLen: 04, CoreSight JTAG-DP
+T5698 000:184.637    #1 Id: 0x16410041, IRLen: 05, STM32 Boundary Scan
+T5698 000:184.644   JTAG Chain Identified. Connecting to DAP TAP...
+T5698 000:184.650   Successfully connected to selected DAP TAP.
+T5698 000:185.866   DAP initialized successfully.
+T5698 000:190.869   InitTarget() end - Took 7.36ms
+T5698 000:191.544   TotalIRLen = 9, IRPrint = 0x0011
+T5698 000:191.867   JTAG chain detection found 2 devices:
+T5698 000:191.876    #0 Id: 0x3BA00477, IRLen: 04, CoreSight JTAG-DP
+T5698 000:191.884    #1 Id: 0x16410041, IRLen: 05, STM32 Boundary Scan
+T5698 000:192.505   DPv0 detected
+T5698 000:192.514   Scanning AP map to find all available APs
+T5698 000:192.907   AP[1]: Stopped AP scan as end of AP map has been reached
+T5698 000:192.915   AP[0]: AHB-AP (IDR: 0x14770011)
+T5698 000:192.920   Iterating through AP map to find AHB-AP to use
+T5698 000:193.454   AP[0]: Core found
+T5698 000:193.460   AP[0]: AHB-AP ROM base: 0xE00FF000
+T5698 000:193.684   CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)
+T5698 000:193.692   Found Cortex-M3 r1p1, Little endian.
+T5698 000:194.089   -- Max. mem block: 0x00004E50
+T5698 000:194.808   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5698 000:195.113   CPU_ReadMem(4 bytes @ 0xE0002000)
+T5698 000:195.363   FPUnit: 6 code (BP) slots and 2 literal slots
+T5698 000:195.379   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5698 000:195.611   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5698 000:195.831   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5698 000:196.107   CPU_WriteMem(4 bytes @ 0xE0001000)
+T5698 000:196.326   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T5698 000:196.603   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T5698 000:196.828   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T5698 000:197.102   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T5698 000:197.329   CoreSight components:
+T5698 000:197.335   ROMTbl[0] @ E00FF000
+T5698 000:197.341   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T5698 000:197.787   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T5698 000:198.089   [0][0]: E000E000 CID B105E00D PID 001BB000 SCS
+T5698 000:198.099   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T5698 000:198.463   [0][1]: E0001000 CID B105E00D PID 001BB002 DWT
+T5698 000:198.475   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T5698 000:198.838   [0][2]: E0002000 CID B105E00D PID 000BB003 FPB
+T5698 000:198.849   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T5698 000:199.215   [0][3]: E0000000 CID B105E00D PID 001BB001 ITM
+T5698 000:199.226   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T5698 000:199.605   [0][4]: E0040000 CID B105900D PID 001BB923 TPIU-Lite
+T5698 000:199.652   CPU is running
+T5698 000:199.661   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T5698 000:199.845   CPU is running
+T5698 000:199.854   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5698 000:200.085   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T5698 000:200.098   Reset: Reset device via AIRCR.SYSRESETREQ.
+T5698 000:200.106   CPU is running
+T5698 000:200.114   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T5698 000:252.378   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5698 000:252.652   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5698 000:254.508   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5698 000:260.392   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T5698 000:262.271   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T5698 000:262.492   CPU_WriteMem(4 bytes @ 0xE0001028)
+T5698 000:262.711   CPU_WriteMem(4 bytes @ 0xE0001038)
+T5698 000:262.964   CPU_WriteMem(4 bytes @ 0xE0001048)
+T5698 000:263.216   CPU_WriteMem(4 bytes @ 0xE0001058)
+T5698 000:263.463   CPU_WriteMem(4 bytes @ 0xE0002000)
+T5698 000:263.711   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T5698 000:263.984   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5698 000:264.243 - 80.867ms
+T5698 000:264.256 JLINK_GetIdData(pIdData)
+T5698 000:264.261   pIdData->ScanLen=9
+T5698 000:264.267   
+T5698 000:264.271   pIdData->NumDevices=2
+T5698 000:264.277   
+T5698 000:264.280   pIdData->aId[0]=0x3BA00477
+T5698 000:264.286   
+T5698 000:264.290   pIdData->aIrRead[0]=0
+T5698 000:264.295   
+T5698 000:264.299   pIdData->aScanLen[0]=0
+T5698 000:264.305   
+T5698 000:264.308   pIdData->aScanRead[0]=0
+T5698 000:264.314   
+T5698 000:264.318 - 0.063ms
+T5698 000:264.360 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)
+T5698 000:264.366 - 0.008ms returns 1000342647
+T5698 000:264.372 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 0)
+T5698 000:264.377 - 0.007ms returns 0
+T5698 000:264.382 JLINK_JTAG_GetDeviceID(DeviceIndex = 1)
+T5698 000:264.386 - 0.005ms returns 373358657
+T5698 000:264.390 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 1)
+T5698 000:264.394 - 0.006ms returns 0
+T5698 000:268.289 JLINK_GetFirmwareString(...)
+T5698 000:268.301 - 0.013ms
+T5698 003:828.365 JLINK_Close()
+T5698 003:828.700   OnDisconnectTarget() start
+T5698 003:828.720    J-Link Script File: Executing OnDisconnectTarget()
+T5698 003:828.746   CPU_WriteMem(4 bytes @ 0xE0042004)
+T5698 003:829.014   OnDisconnectTarget() end - Took 290us
+T5698 003:829.030   CPU_ReadMem(4 bytes @ 0xE0001000)
+T5698 003:829.263   CPU_WriteMem(4 bytes @ 0xE0001004)
+T5698 003:840.681 - 12.328ms
+T5698 003:840.695   
+T5698 003:840.700   Closed
