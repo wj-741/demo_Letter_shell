@@ -32,7 +32,7 @@ Shell shell;
 
 
 /*---------------------- 局部变量 ----------------------*/
-static char shellBuffer[SHELL_BUFF_LEN] = {0};
+char shellBuffer[SHELL_BUFF_LEN] = {0};
 
 char recv_buf = 0;
 /*---------------------- 函    数 ----------------------*/

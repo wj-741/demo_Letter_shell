@@ -154,23 +154,6 @@
         </SetRegEntry>
       </TargetDriverDllRegistry>
       <Breakpoint/>
-      <WatchWindow1>
-        <Ww>
-          <count>0</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>recv_buf</ItemText>
-        </Ww>
-        <Ww>
-          <count>1</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>SHELL_TYPE_KEY</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>i</ItemText>
-        </Ww>
-      </WatchWindow1>
       <WatchWindow2>
         <Ww>
           <count>0</count>
@@ -180,12 +163,7 @@
         <Ww>
           <count>1</count>
           <WinNumber>2</WinNumber>
-          <ItemText>base</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>2</WinNumber>
-          <ItemText>*base</ItemText>
+          <ItemText>shellBuffer</ItemText>
         </Ww>
       </WatchWindow2>
       <Tracepoint>
@@ -626,7 +604,7 @@
 
   <Group>
     <GroupName>Bsp_shell</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

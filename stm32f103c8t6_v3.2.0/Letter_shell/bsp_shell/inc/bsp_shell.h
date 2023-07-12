@@ -25,7 +25,11 @@
 
 extern char recv_buf;
 /*---------------------- 宏 定 义 ----------------------*/
-#define SHELL_BUFF_LEN  512
+/*
+ * 申请内存大小取决于命令行输入的最大长度和历史命令记录的数量
+ * 具体计算方式为(历史命令最大数量 + 1) * 命令行输入最大长度
+ */
+#define SHELL_BUFF_LEN  256
 
 extern Shell shell;
 
